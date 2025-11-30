@@ -1,0 +1,35 @@
+.calendar-wrapper {
+  padding: 12px;
+}
+
+.week-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.week-cell {
+  text-align: center;
+  font-weight: 700;
+  color: #374151;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.day-cell {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.selected-cell {
+  outline: 2px solid rgba(59, 130, 246, 0.2);
+}
+
+.task-bar {
+  transition: transform 0.08s ease;
+}
